@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+<script>
+    // lê o preço do produto
+    var preco = Number(prompt("Valor do produto : R$"));
+    // calcula valores à vista e das parcelas
+    var desconto = preco - (preco *  0.10);       // ou : var avista = preco * 0.90;
+    var dividido = preco / 3;
+    // exibe as respostas
+    alert(`Preço R$:${preco.toFixed(2)} \n À vista R$:${desconto.toFixed(2)} \n Ou 3x de R$:${dividido.toFixed(2)}`);
+</script>
